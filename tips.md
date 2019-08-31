@@ -6,7 +6,7 @@ Here are a few tips:
 
 ----
 
-**Tip**: `touch filename.``date +%d`
+**Tip**: `touch filename.``date +%d```
 
 **Description**: Creates a file with the name filename.23 id the date on that day is the 23rd. You can add %m to also have the month in the name. Helps to have a track of when you made a particular file.
 
