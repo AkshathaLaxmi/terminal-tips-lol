@@ -17,3 +17,11 @@ Here are a few tips:
 **Description**: Short command for ./a.out.
 
 ----
+
+----
+
+**Tip**: `top -H -d <time> -p <PID>`
+
+**Description**: The top command gives information about the currently running processes on the OS. -H flag is used to display threaad level information. -d <time> specifies the refresh rate of the command. -p <PID> is used to specify the process ID of the process about which you want top to display information about. 
+
+----
