@@ -26,7 +26,6 @@ Here are a few tips:
 
 **Tip**: `sudo !!`
 
-**Description**: When you forget to add sudo infront of your ` apt-get install name`
-                 `!!` gets the last command.
+**Description**: The `!!` command gets the last command. For example, when you forget to add sudo in front of the command` apt-get install <name>` running `sudo !!` lets you update without having to type the whole command again.
 
 ----
