@@ -23,3 +23,10 @@ Here are a few tips:
 **Description**: The top command gives information about the currently running processes on the OS. -H flag is used to display threaad level information. -d <time> specifies the refresh rate of the command. -p <PID> is used to specify the process ID of the process about which you want top to display information about. 
 
 ----
+
+**Tip**: `sudo !!`
+
+**Description**: When you forget to add sudo infront of your ` apt-get install name`
+                 `!!` gets the last command.
+
+----
