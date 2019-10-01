@@ -8,7 +8,7 @@ Here are a few tips:
 
 **Tip**: `touch filename.date +%d`
 
-**Description**: Creates a file with the name filename.23 if the date on that day is the 23rd. You can add %m to also have the month in the name. Helps to have a track of when you made a particular file. (date +%d must be within backticks. pls fix this if someone can.)
+**Description**: Creates a file with the name filename.23 if the date on that day is the 23rd. You can add %m to also have the month or %y to include the year as well in the name. Helps to have a track of when you made a particular file. (date +%d must be within backticks. pls fix this if someone can.)
 
 ----
 
