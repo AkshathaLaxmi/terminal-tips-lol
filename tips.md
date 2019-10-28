@@ -35,3 +35,9 @@ Here are a few tips:
 **Description**: The `history` command by itself will simply print out the bash history of the current user to the screen. Commands are numbered, with older commands at the top and newer commands at the bottom.
 
 ----
+
+**Tip**: `tail /etc/passwd < abc.txt`
+
+**Description**: Writes the bottom 10 lines into abc.txt.
+
+----
