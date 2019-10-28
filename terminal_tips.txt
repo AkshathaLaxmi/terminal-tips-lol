@@ -1,0 +1,31 @@
+
+**Tip**: $ ls
+
+**Description**: To view the contents of the folder.
+
+----
+
+**Tip**: $ ls -l
+
+**Description**: To view the contents of the folder in a list format.
+
+----
+
+**Tip**: $ ls -a
+
+**Description**: To view all the files, including the hidden ones.
+
+----
+
+**Tip**: $ ls -la
+
+**Description**: To view all the files, including the hidden ones in a list format.
+
+----
+
+**Tip**: $ ditto -V /old/work/ /new/work/
+
+**Description**: The command will copy our “work” folder to a new location. Actually, what happens is the command copies the contents of our “work” folder to a new “work” folder.
+
+----
+
