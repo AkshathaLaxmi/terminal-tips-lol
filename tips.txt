@@ -1,0 +1,18 @@
+1)$ ditto -V /old/work/ /new/work/
+The above command will copy our “work” folder to a new location. Actually, what happens is the command copies the contents of our “work” folder to a new “work” folder.
+
+Adding -V, meaning verbose prints a line to the Terminal window for every file that’s being copied. It’s extremely useful as you can see exactly what file is being copied at any time.
+
+Ditto is a command I use frequently and have often copied many gigabytes of data between hard drives using it because it seems to be so reliable.
+
+2)$ sudo fs_usage
+Sometimes we want to see what our Mac is doing when it comes to reading and writing to disk, especially if we’re trying to identify something that’s preventing us from ejecting a drive. To do this, we use:
+By entering sudo, we are requesting to run this as a super user, which requires entering our Mac’s login password. Once done, you’re presented with a constant stream of information as processes are accessing your disk.
+
+Some processes you are likely to see are Time Machine (backupd) and Spotlight (mds).
+
+To cancel, you can press Ctrl-C.
+
+3)$ sudo mdutil -E /Volumes/DriveName
+Spotlight can occasionally not work as well as we’d like. Sometimes, we just need to tell Spotlight to create a new index so it can find files as fast and efficiently as possible.
+The above command will delete Spotlight’s index, forcing it to start a new one. An easier way of completing the command is to enter the first part of it and, for the location, just drag a hard drive from your desktop to the Terminal window.
