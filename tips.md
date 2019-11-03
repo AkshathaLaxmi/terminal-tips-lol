@@ -36,7 +36,7 @@ Here are a few tips:
 
 ----
 
-**Tip**: `tail /etc/passwd < abc.txt`
+**Tip**: `tail /etc/passwd > abc.txt`
 
 **Description**: Writes the bottom 10 lines into abc.txt.
 
