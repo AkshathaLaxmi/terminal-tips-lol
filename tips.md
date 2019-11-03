@@ -14,7 +14,8 @@ Here are a few tips:
 
 **Tip**: `!.`
 
-**Description**: Short command for ./a.out.
+**Description**: Repeats the last command that started with .  
+! does this with other characters too !<chars> repeats the last command that started with <chars> Using !! replaces the string !! with the previous command.
 
 ----
 
@@ -39,5 +40,11 @@ Here are a few tips:
 **Tip**: `tail /etc/passwd > abc.txt`
 
 **Description**: Writes the bottom 10 lines into abc.txt.
+
+----
+
+**Tip**: `alias bye="echo goodbye; tar -cf all *; shutdown -h 0"`
+
+**Description**: The alias command allows you to shorten long sequences of commands into one word, basically give aliases. This gets added to your ENV for the current session. Now when you type goodbye and hit enter, it will say goodbye, archive your current directory and shutdown your computer, To have the alias stored permanently, save them in a ~/.bash_aliases file. 
 
 ----
