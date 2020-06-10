@@ -48,3 +48,9 @@ Here are a few tips:
 **Description**: The alias command allows you to shorten long sequences of commands into one word, basically give aliases. This gets added to your ENV for the current session. Now when you type goodbye and hit enter, it will say goodbye, archive your current directory and shutdown your computer, To have the alias stored permanently, save them in a ~/.bash_aliases file. 
 
 ----
+
+**Tip**: `apt list --upgradable | sed --expression  's/\/.*//'`
+
+**Description**: Removes all the extra info, and only displays the name of the packages that can be upgraded.
+
+----
