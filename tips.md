@@ -54,3 +54,9 @@ Here are a few tips:
 **Description**: Removes all the extra info, and only displays the name of the packages that can be upgraded.
 
 ----
+
+**Tip**: `ag -g string`
+
+**Description**: Only shows the name of the files containing the string. It will not show the lines and line numbers.
+
+----
